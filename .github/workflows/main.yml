@@ -19,5 +19,7 @@ jobs:
         run: docker build -t semimage .
       - name: Run image
         run: docker run --name semcontainer -d semimage
+      - name: Verify output
+        run: docker logs semcontainer | grep "Hello World!"
       - name: view logs
         run: docker logs semcontainer
