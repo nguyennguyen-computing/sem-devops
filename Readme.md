@@ -1,9 +1,9 @@
 # Software Engineering Methods
 
-* Master Build Status ![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/nguyennguyen-computing/sem-devops/main.yml?branch=master)
-* Develop Branch Status ![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/nguyennguyen-computing/sem-devops/main.yml?branch=develop)
-* License [![LICENSE](https://img.shields.io/github/license/nguyennguyen-computing/sem-devops.svg?style=flat-square)](https://github.com/nguyennguyen-computing/sem-devops/blob/master/LICENSE)
-* Release [![Releases](https://img.shields.io/github/release/nguyennguyen-computing/sem-devops/all.svg?style=flat-square)](https://github.com/nguyennguyen-computing/sem-devops/releases)
+[![Master Build](https://img.shields.io/github/actions/workflow/status/nguyennguyen-computing/sem-devops/main.yml?branch=master&label=master)](https://github.com/nguyennguyen-computing/sem-devops/actions)
+[![Develop Build](https://img.shields.io/github/actions/workflow/status/nguyennguyen-computing/sem-devops/main.yml?branch=develop&label=develop)](https://github.com/nguyennguyen-computing/sem-devops/actions)
+[![License](https://img.shields.io/github/license/nguyennguyen-computing/sem-devops)](https://github.com/nguyennguyen-computing/sem-devops/blob/master/LICENSE)
+[![Release](https://img.shields.io/github/release/nguyennguyen-computing/sem-devops/all.svg)](https://github.com/nguyennguyen-computing/sem-devops/releases)
 
 This is a simple Java application that runs inside a Docker container with continuous integration setup using GitHub Actions.
 
