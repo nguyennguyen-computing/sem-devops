@@ -1,9 +1,9 @@
 # Software Engineering Methods
 
-* Master Build Status ![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/seMethods/main.yml?branch=master)
-* Develop Branch Status ![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/seMethods/main.yml?branch=develop)
-* License [![LICENSE](https://img.shields.io/github/license/YOUR_USERNAME/seMethods.svg?style=flat-square)](https://github.com/YOUR_USERNAME/seMethods/blob/master/LICENSE)
-* Release [![Releases](https://img.shields.io/github/release/YOUR_USERNAME/seMethods/all.svg?style=flat-square)](https://github.com/YOUR_USERNAME/seMethods/releases)
+* Master Build Status ![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/nguyennguyen-computing/seMethods/main.yml?branch=master)
+* Develop Branch Status ![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/nguyennguyen-computing/seMethods/main.yml?branch=develop)
+* License [![LICENSE](https://img.shields.io/github/license/nguyennguyen-computing/seMethods.svg?style=flat-square)](https://github.com/nguyennguyen-computing/seMethods/blob/master/LICENSE)
+* Release [![Releases](https://img.shields.io/github/release/nguyennguyen-computing/seMethods/all.svg?style=flat-square)](https://github.com/nguyennguyen-computing/seMethods/releases)
 
 This is a simple Java application that runs inside a Docker container with continuous integration setup using GitHub Actions.
 
