@@ -1,6 +1,21 @@
-version: "3.9"
 services:
+  mongo-dbserver:
+    image: mongo:latest
+    container_name: mongo-dbserver
+    ports:
+      - "27000:27017"
+    networks:
+      - se-methods
+
   app:
     build: .
     container_name: sem_app
     image: sem_app:latest
+    depends_on:
+      - mongo-dbserver
+    networks:
+      - se-methods
+
+networks:
+  se-methods:
+    driver: bridge
