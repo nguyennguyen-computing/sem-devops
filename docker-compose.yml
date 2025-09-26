@@ -1,18 +1,4 @@
 services:
-  mongo-dbserver:
-    image: mongo:latest
-    container_name: mongo-dbserver
-    ports:
-      - "27000:27017"
-    networks:
-      - se-methods
-    healthcheck:
-      test: ["CMD", "mongosh", "--eval", "db.admin.runCommand('ping')"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-      start_period: 10s
-
   app:
     build: .
     container_name: sem_app
@@ -22,7 +8,7 @@ services:
         condition: service_healthy
     networks:
       - se-methods
-
-networks:
-  se-methods:
-    driver: bridge
+  db:
+    build: db/.
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
