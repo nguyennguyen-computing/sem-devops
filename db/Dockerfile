@@ -2,6 +2,8 @@
 FROM mysql:8.0
 # Set the working directory
 WORKDIR /tmp
+# Copy the entire test_db directory first
+COPY db/test_db/ /tmp/test_db/
 # Copy all the files to the working directory of the container
 COPY db/test_db/*.sql /tmp/
 COPY db/test_db/*.dump /tmp/
